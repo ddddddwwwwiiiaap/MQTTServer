@@ -1,0 +1,882 @@
+2024-12-24 07:26:03,928 - INFO - Starting MQTT Server
+2024-12-24 07:26:04,036 - INFO - Starting HTTP server on port 8000
+2024-12-24 07:26:04,038 - INFO - Connecting to MQTT broker at 192.168.1.14:1883
+2024-12-24 07:26:04,047 - INFO - Connected to MQTT broker
+2024-12-24 07:26:34,619 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:26:34,620 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:26:34,778 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:26:34,779 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:26:34,779 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:26:34,782 - ERROR - Error processing device schedules: Object of type timedelta is not JSON serializable
+2024-12-24 07:26:34,787 - ERROR - Error processing message: Object of type timedelta is not JSON serializable
+2024-12-24 07:29:45,131 - INFO - Server stopped by user
+2024-12-24 07:29:45,132 - WARNING - Disconnected from MQTT broker with code: 0
+2024-12-24 07:29:45,132 - INFO - Server shutdown complete
+2024-12-24 07:29:46,520 - INFO - Starting MQTT Server
+2024-12-24 07:29:46,526 - INFO - Starting HTTP server on port 8000
+2024-12-24 07:29:46,529 - INFO - Connecting to MQTT broker at 192.168.1.14:1883
+2024-12-24 07:29:46,544 - INFO - Connected to MQTT broker
+2024-12-24 07:29:58,735 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:29:58,735 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:29:58,829 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:29:58,834 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:29:58,912 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:29:58,912 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:29:58,912 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:29:58,913 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:32:24,625 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:32:24,627 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:32:24,733 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:32:24,741 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:32:24,825 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:32:24,825 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:32:24,825 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:32:24,826 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:32:25,033 - INFO - Received GET request for: /20241029091026_6720a682df99b.mov
+2024-12-24 07:32:25,045 - INFO - HTTP Server: "GET /20241029091026_6720a682df99b.mov HTTP/1.1" 200 -
+2024-12-24 07:32:25,437 - INFO - Received GET request for: /20241218130831_6762c94ff3224.mp4
+2024-12-24 07:32:25,438 - INFO - HTTP Server: "GET /20241218130831_6762c94ff3224.mp4 HTTP/1.1" 200 -
+2024-12-24 07:33:04,551 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:33:04,551 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:33:04,626 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:33:04,634 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:33:04,716 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:33:04,716 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:33:04,716 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:33:04,717 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:40:05,221 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:40:05,221 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:40:05,331 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:40:05,337 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:40:05,486 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:40:05,487 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:40:05,487 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:40:05,487 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:40:37,716 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:40:37,717 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:40:37,819 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:40:37,826 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:40:37,953 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:40:37,953 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:40:37,953 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:40:37,954 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:42:39,028 - INFO - Server stopped by user
+2024-12-24 07:42:39,028 - WARNING - Disconnected from MQTT broker with code: 0
+2024-12-24 07:42:39,029 - INFO - Server shutdown complete
+2024-12-24 07:44:17,029 - INFO - Starting MQTT Server
+2024-12-24 07:44:17,331 - INFO - Starting HTTP server on port 8000
+2024-12-24 07:44:17,333 - INFO - Connecting to MQTT broker at 192.168.1.14:1883
+2024-12-24 07:44:17,338 - INFO - Connected to MQTT broker
+2024-12-24 07:44:18,920 - INFO - Server stopped by user
+2024-12-24 07:44:18,920 - WARNING - Disconnected from MQTT broker with code: 0
+2024-12-24 07:44:18,920 - INFO - Server shutdown complete
+2024-12-24 07:49:33,886 - INFO - Starting MQTT Server
+2024-12-24 07:49:33,890 - INFO - Starting HTTP server on port 8000
+2024-12-24 07:49:33,892 - INFO - Connecting to MQTT broker at 192.168.1.14:1883
+2024-12-24 07:49:33,906 - INFO - Connected to MQTT broker
+2024-12-24 07:49:43,267 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:49:43,267 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:49:43,446 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:49:43,457 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:49:43,573 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:49:43,574 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:49:43,574 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:49:43,574 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:50:39,884 - INFO - Message received on topic: device/mac_address
+2024-12-24 07:50:39,885 - INFO - Processing MAC address: B7:5E:E6:E0:51:4C
+2024-12-24 07:50:40,059 - INFO - Existing MAC address found: B7:5E:E6:E0:51:4C
+2024-12-24 07:50:40,068 - INFO - Processing schedules for device: B7:5E:E6:E0:51:4C
+2024-12-24 07:50:40,225 - INFO - Downloading content: video/20241029091026_6720a682df99b.mov
+2024-12-24 07:50:40,227 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:50:40,227 - INFO - Downloading content: video/20241218130831_6762c94ff3224.mp4
+2024-12-24 07:50:40,228 - INFO - Published device info to device/info/B7:5E:E6:E0:51:4C
+2024-12-24 07:52:27,675 - INFO - Server stopped by user
+2024-12-24 07:52:27,676 - WARNING - Disconnected from MQTT broker with code: 0
+2024-12-24 07:52:27,677 - INFO - Server shutdown complete
+2024-12-25 07:33:25,713 - MQTTServer - INFO - Checking download directory...
+2024-12-25 07:33:25,714 - MQTTServer - INFO - Download directory already exists
+2024-12-25 07:33:25,750 - MQTTServer - INFO - Server URL: http://192.168.100.69:8000/
+2024-12-25 07:33:25,751 - MQTTServer - INFO - HTTP Server started successfully
+2024-12-25 07:33:25,787 - MQTTServer - INFO - MQTT Connection result: 0
+2024-12-25 07:33:25,787 - MQTTServer - INFO - Successfully connected to MQTT broker
+2024-12-25 07:33:25,788 - MQTTServer - INFO - Subscribed to topic: device/mac_address
+2024-12-25 07:33:42,883 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 07:33:42,883 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 07:33:42,883 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 07:33:42,883 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 07:33:43,044 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 07:33:43,050 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 07:33:43,112 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 07:33:43,115 - MQTTServer - INFO - Checking download directory...
+2024-12-25 07:33:43,115 - MQTTServer - INFO - Download directory already exists
+2024-12-25 07:33:43,121 - MQTTServer - INFO - File exists on disk: /etc/android-project/downloaded_content/20241029091026_6720a682df99b.mov
+2024-12-25 07:33:43,121 - MQTTServer - INFO - File exists on disk: /etc/android-project/downloaded_content/20241218130831_6762c94ff3224.mp4
+2024-12-25 07:33:43,122 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 07:33:43,125 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 07:33:43,125 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 07:33:43,126 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 07:33:43,126 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 07:33:43,126 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 07:33:43,126 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 07:33:43,132 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 07:34:17,888 - MQTTServer - INFO - Received GET request for: /
+2024-12-25 07:34:18,013 - MQTTServer - INFO - Received GET request for: /favicon.ico
+2024-12-25 08:40:56,464 - MQTTServer - INFO - Checking download directory...
+2024-12-25 08:40:56,464 - MQTTServer - INFO - Download directory already exists
+2024-12-25 08:40:56,513 - MQTTServer - INFO - Server URL: http://192.168.100.69:8000/
+2024-12-25 08:40:56,514 - MQTTServer - INFO - HTTP Server started successfully
+2024-12-25 08:40:56,553 - MQTTServer - INFO - MQTT Connection result: 0
+2024-12-25 08:40:56,554 - MQTTServer - INFO - Successfully connected to MQTT broker
+2024-12-25 08:40:56,554 - MQTTServer - INFO - Subscribed to topic: device/mac_address
+2024-12-25 08:41:10,096 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 08:41:10,096 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 08:41:10,097 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 08:41:10,097 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 08:41:10,266 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 08:41:10,273 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 08:41:10,341 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 08:41:10,344 - MQTTServer - INFO - Checking download directory...
+2024-12-25 08:41:10,344 - MQTTServer - INFO - Download directory already exists
+2024-12-25 08:41:10,349 - MQTTServer - INFO - File exists on disk: /etc/android-project/downloaded_content/20241029091026_6720a682df99b.mov
+2024-12-25 08:41:10,350 - MQTTServer - INFO - File exists on disk: /etc/android-project/downloaded_content/20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:10,350 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:10,355 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 08:41:10,356 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:10,357 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:10,357 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 08:41:10,358 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 08:41:10,358 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 08:41:10,362 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 08:41:11,318 - MQTTServer - INFO - Received GET request for: /20241029091026_6720a682df99b.mov
+2024-12-25 08:41:11,847 - MQTTServer - INFO - Received GET request for: /20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:33,865 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 08:41:33,865 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 08:41:33,865 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 08:41:33,865 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 08:41:34,037 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 08:41:34,042 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 08:41:34,104 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 08:41:34,107 - MQTTServer - INFO - Checking download directory...
+2024-12-25 08:41:34,108 - MQTTServer - INFO - Download directory already exists
+2024-12-25 08:41:34,110 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 08:41:34,111 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:34,111 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:34,114 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 08:41:34,116 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:34,116 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:41:34,116 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 08:41:34,117 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 08:41:34,118 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 08:41:34,121 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 08:42:45,973 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 08:42:45,973 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 08:42:45,973 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 08:42:45,973 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 08:42:46,136 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 08:42:46,140 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 08:42:46,201 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 08:42:46,203 - MQTTServer - INFO - Checking download directory...
+2024-12-25 08:42:46,203 - MQTTServer - INFO - Download directory already exists
+2024-12-25 08:42:46,206 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 08:42:46,207 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:42:46,207 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:42:46,211 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 08:42:46,211 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:42:46,211 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 08:42:46,212 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 08:42:46,212 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 08:42:46,213 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 08:42:46,218 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 08:42:47,167 - MQTTServer - INFO - Received GET request for: /20241029091026_6720a682df99b.mov
+2024-12-25 08:42:47,585 - MQTTServer - INFO - Received GET request for: /20241218130831_6762c94ff3224.mp4
+2024-12-25 09:42:37,869 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 09:42:37,869 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 09:42:37,870 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 09:42:37,870 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 09:42:38,032 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 09:42:38,038 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 09:42:38,100 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 09:42:38,104 - MQTTServer - INFO - Checking download directory...
+2024-12-25 09:42:38,105 - MQTTServer - INFO - Download directory already exists
+2024-12-25 09:42:38,108 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 09:42:38,108 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 09:42:38,109 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 09:42:38,111 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 09:42:38,112 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 09:42:38,112 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 09:42:38,112 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 09:42:38,112 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 09:42:38,112 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 09:42:38,115 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:01:32,181 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:01:32,182 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:01:32,182 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:01:32,182 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:01:32,368 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:01:32,378 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:01:32,453 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:01:32,457 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:01:32,457 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:01:32,461 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:01:32,461 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:01:32,462 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:01:32,466 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:01:32,466 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:01:32,466 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:01:32,466 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:01:32,467 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:01:32,467 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:01:32,470 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:05:29,589 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:05:29,589 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:05:29,589 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:05:29,589 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:05:29,750 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:05:29,754 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:05:29,817 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:05:29,820 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:05:29,821 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:05:29,824 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:05:29,824 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:29,825 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:29,827 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:05:29,828 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:29,828 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:29,828 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:05:29,828 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:05:29,828 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:05:29,831 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:05:47,463 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:05:47,463 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:05:47,463 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:05:47,463 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:05:47,641 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:05:47,645 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:05:47,707 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:05:47,710 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:05:47,711 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:05:47,714 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:05:47,714 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:47,714 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:47,718 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:05:47,720 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:47,720 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:05:47,721 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:05:47,721 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:05:47,721 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:05:47,726 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:07:07,967 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:07:07,967 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:07:07,967 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:07:07,967 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:07:08,128 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:07:08,135 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:07:08,199 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:07:08,202 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:07:08,202 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:07:08,205 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:07:08,206 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:07:08,206 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:07:08,210 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:07:08,210 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:07:08,210 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:07:08,211 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:07:08,211 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:07:08,211 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:07:08,214 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:08:40,846 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:08:40,846 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:08:40,846 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:08:40,846 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:08:41,004 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:08:41,008 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:08:41,065 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:08:41,068 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:08:41,069 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:08:41,074 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:08:41,075 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:08:41,075 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:08:41,079 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:08:41,079 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:08:41,079 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:08:41,080 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:08:41,080 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:08:41,080 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:08:41,083 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:18:33,006 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:18:33,006 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:18:33,006 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:18:33,007 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:18:33,180 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:18:33,184 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:18:33,244 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:18:33,246 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:18:33,246 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:18:33,249 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:18:33,250 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:33,250 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:33,254 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:18:33,255 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:33,255 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:33,255 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:18:33,256 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:18:33,256 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:18:33,259 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:18:47,974 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:18:47,974 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 11:18:47,974 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 11:18:47,975 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:18:48,138 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 11:18:48,143 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 11:18:48,205 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 11:18:48,207 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:18:48,207 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:18:48,210 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:18:48,211 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:48,211 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:48,215 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:18:48,216 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:48,217 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:18:48,217 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:18:48,218 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 11:18:48,218 - MQTTServer - INFO - Processed 2 schedules
+2024-12-25 11:18:48,223 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 11:21:27,720 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:21:27,720 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:21:27,720 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:21:27,720 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:21:27,881 - MQTTServer - INFO - New MAC address detected: B6:47:0E:15:3A:8E
+2024-12-25 11:21:27,888 - MQTTServer - INFO - Publishing status 'UNREGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,355 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:21:42,355 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,355 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,355 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,513 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,518 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,578 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,580 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:21:42,581 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:21:42,581 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:21:42,581 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:21:42,581 - MQTTServer - INFO - Processed 0 schedules
+2024-12-25 11:21:42,586 - MQTTServer - INFO - Publishing status 'UNREGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:24:06,959 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:24:06,960 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:24:06,960 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:24:06,960 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:24:07,135 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:24:07,141 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:24:07,216 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:24:07,218 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:24:07,218 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:24:07,218 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:24:07,218 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:24:07,219 - MQTTServer - INFO - Processed 0 schedules
+2024-12-25 11:24:07,221 - MQTTServer - INFO - Publishing status 'UNREGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:25:08,810 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:25:08,810 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:25:08,810 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:25:08,811 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:25:08,978 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:25:08,983 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:25:09,053 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:25:09,054 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:25:09,055 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:25:09,055 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:25:09,055 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:25:09,055 - MQTTServer - INFO - Processed 0 schedules
+2024-12-25 11:25:09,059 - MQTTServer - INFO - Publishing status 'UNREGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,742 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:29:20,743 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,743 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,743 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,899 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,903 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,961 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,963 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:29:20,963 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:29:20,968 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:29:20,968 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:29:20,969 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:29:20,969 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:29:20,969 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:29:20,969 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:29:20,975 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:29:21,933 - MQTTServer - INFO - Received GET request for: /20241029091026_6720a682df99b.mov
+2024-12-25 11:29:22,452 - MQTTServer - INFO - Received GET request for: /20241218130831_6762c94ff3224.mp4
+2024-12-25 11:31:58,407 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:31:58,407 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,407 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,408 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,568 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,572 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,635 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,636 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:31:58,637 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:31:58,640 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:31:58,640 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:31:58,641 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:31:58,641 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:31:58,641 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:31:58,641 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:31:58,647 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,242 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:33:41,242 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,242 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,242 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,400 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,404 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,469 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,471 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:33:41,471 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:33:41,475 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:33:41,476 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:33:41,477 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:33:41,477 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:33:41,477 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:33:41,478 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:33:41,482 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,654 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:34:11,655 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,655 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,655 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,818 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,823 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,883 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,884 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:34:11,885 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:34:11,889 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:34:11,889 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:34:11,889 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:34:11,889 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:34:11,890 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:34:11,890 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:34:11,896 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,273 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:36:16,273 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,273 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,274 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,438 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,443 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,507 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,509 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:36:16,509 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:36:16,513 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:36:16,513 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:36:16,514 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:36:16,514 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:36:16,515 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:36:16,516 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:36:16,520 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,394 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:49:25,394 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,394 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,395 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,603 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,626 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,693 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,699 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:49:25,699 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:49:25,707 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:49:25,707 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:49:25,708 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:49:25,708 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:49:25,708 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:49:25,708 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:49:25,711 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,133 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:49:40,134 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,134 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,134 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,296 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,300 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,359 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,361 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:49:40,362 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:49:40,367 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:49:40,367 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:49:40,367 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:49:40,367 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:49:40,368 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:49:40,369 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:49:40,373 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,518 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:51:56,518 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,519 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,519 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,681 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,687 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,746 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,748 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:51:56,749 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:51:56,752 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:51:56,753 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:51:56,753 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:51:56,753 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:51:56,754 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:51:56,754 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:51:56,758 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,221 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:52:08,221 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,221 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,221 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,383 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,388 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,448 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,450 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:52:08,450 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:52:08,454 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:52:08,455 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:52:08,455 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:52:08,455 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:52:08,456 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:52:08,456 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:52:08,460 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,395 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:54:24,395 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,396 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,396 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,560 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,564 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,627 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,629 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:54:24,630 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:54:24,635 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:54:24,636 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:54:24,636 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:54:24,637 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:54:24,637 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:54:24,637 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:54:24,641 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:54:36,895 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:54:36,895 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:54:36,895 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:54:36,895 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:54:37,053 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:54:37,057 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:54:37,117 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:54:37,118 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:54:37,119 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:54:37,121 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:54:37,121 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:54:37,121 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:54:37,121 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:54:37,121 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:54:37,122 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:54:37,127 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,244 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:55:04,244 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,245 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,245 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,401 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,406 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,465 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,467 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:55:04,468 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:55:04,472 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:55:04,472 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:55:04,472 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:55:04,473 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:55:04,473 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:55:04,473 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:55:04,479 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:55:18,864 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:55:18,864 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:55:18,864 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:55:18,864 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:55:19,022 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:55:19,026 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:55:19,090 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:55:19,092 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:55:19,093 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:55:19,096 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:55:19,097 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:55:19,097 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:55:19,098 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:55:19,098 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:55:19,098 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:55:19,103 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,462 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:57:55,462 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,462 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,462 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,622 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,626 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,687 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,688 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:57:55,689 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:57:55,693 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:57:55,693 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:57:55,693 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:57:55,693 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:57:55,694 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:57:55,695 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:57:55,700 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,092 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:58:18,093 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,093 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,093 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,255 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,260 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,319 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,320 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:58:18,321 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:58:18,325 - MQTTServer - INFO - File already processed: 20241029091026_6720a682df99b.mov
+2024-12-25 11:58:18,326 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:58:18,326 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:58:18,326 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:58:18,327 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:58:18,327 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:58:18,331 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:59:37,854 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 11:59:37,854 - MQTTServer - INFO - MAC Address received: B6:47:0E:15:3A:8E
+2024-12-25 11:59:37,854 - MQTTServer - INFO - 
+Processing MAC address: B6:47:0E:15:3A:8E
+2024-12-25 11:59:37,854 - MQTTServer - INFO - Clearing retained message for topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 11:59:38,020 - MQTTServer - INFO - Existing MAC address found: B6:47:0E:15:3A:8E
+2024-12-25 11:59:38,024 - MQTTServer - INFO - 
+Getting schedules for device: B6:47:0E:15:3A:8E
+2024-12-25 11:59:38,084 - MQTTServer - INFO - Found device data for MAC: B6:47:0E:15:3A:8E
+2024-12-25 11:59:38,085 - MQTTServer - INFO - Checking download directory...
+2024-12-25 11:59:38,086 - MQTTServer - INFO - Download directory already exists
+2024-12-25 11:59:38,090 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:59:38,091 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 11:59:38,092 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 11:59:38,093 - MQTTServer - INFO - Data sent to topic: device/info/B6:47:0E:15:3A:8E
+2024-12-25 11:59:38,093 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 11:59:38,097 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/B6:47:0E:15:3A:8E
+2024-12-25 12:00:07,653 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 12:00:07,653 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 12:00:07,653 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 12:00:07,653 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:00:07,811 - MQTTServer - INFO - New MAC address detected: 64:71:C0:7C:21:A4
+2024-12-25 12:00:07,818 - MQTTServer - INFO - Publishing status 'UNREGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:03:37,513 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 12:03:37,513 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 12:03:37,513 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 12:03:37,513 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:03:37,676 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 12:03:37,683 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 12:03:37,751 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 12:03:37,753 - MQTTServer - INFO - Checking download directory...
+2024-12-25 12:03:37,753 - MQTTServer - INFO - Download directory already exists
+2024-12-25 12:03:37,757 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:03:37,758 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:03:37,758 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 12:03:37,759 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 12:03:37,759 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 12:03:37,765 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:20:59,354 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 12:20:59,354 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 12:20:59,354 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 12:20:59,354 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:20:59,521 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 12:20:59,528 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 12:20:59,591 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 12:20:59,593 - MQTTServer - INFO - Checking download directory...
+2024-12-25 12:20:59,594 - MQTTServer - INFO - Download directory already exists
+2024-12-25 12:20:59,599 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:20:59,599 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:20:59,600 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 12:20:59,600 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 12:20:59,600 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 12:20:59,604 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:24:24,034 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 12:24:24,034 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 12:24:24,034 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 12:24:24,034 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:24:24,196 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 12:24:24,200 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 12:24:24,262 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 12:24:24,264 - MQTTServer - INFO - Checking download directory...
+2024-12-25 12:24:24,264 - MQTTServer - INFO - Download directory already exists
+2024-12-25 12:24:24,267 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:24:24,267 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:24:24,268 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 12:24:24,268 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 12:24:24,268 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 12:24:24,271 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:24:24,960 - MQTTServer - INFO - Received GET request for: /20241218130831_6762c94ff3224.mp4
+2024-12-25 12:28:21,413 - MQTTServer - INFO - Checking download directory...
+2024-12-25 12:28:21,413 - MQTTServer - INFO - Download directory already exists
+2024-12-25 12:28:21,490 - MQTTServer - INFO - Server URL: http://192.168.100.69:8000/
+2024-12-25 12:28:21,492 - MQTTServer - INFO - HTTP Server started successfully
+2024-12-25 12:28:21,528 - MQTTServer - INFO - MQTT Connection result: 0
+2024-12-25 12:28:21,529 - MQTTServer - INFO - Successfully connected to MQTT broker
+2024-12-25 12:28:21,529 - MQTTServer - INFO - Subscribed to topic: device/mac_address
+2024-12-25 12:30:38,624 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 12:30:38,624 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 12:30:38,624 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 12:30:38,625 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:30:38,790 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 12:30:38,796 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 12:30:38,858 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 12:30:38,861 - MQTTServer - INFO - Checking download directory...
+2024-12-25 12:30:38,861 - MQTTServer - INFO - Download directory already exists
+2024-12-25 12:30:38,864 - MQTTServer - INFO - File exists on disk: /etc/android-project/downloaded_content/20241218130831_6762c94ff3224.mp4
+2024-12-25 12:30:38,865 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:30:38,865 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 12:30:38,866 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 12:30:38,866 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 12:30:38,869 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:30:51,524 - MQTTServer - INFO - 
+Message received on topic: device/mac_address
+2024-12-25 12:30:51,524 - MQTTServer - INFO - MAC Address received: 64:71:C0:7C:21:A4
+2024-12-25 12:30:51,525 - MQTTServer - INFO - 
+Processing MAC address: 64:71:C0:7C:21:A4
+2024-12-25 12:30:51,525 - MQTTServer - INFO - Clearing retained message for topic: device/status/64:71:C0:7C:21:A4
+2024-12-25 12:30:51,687 - MQTTServer - INFO - Existing MAC address found: 64:71:C0:7C:21:A4
+2024-12-25 12:30:51,692 - MQTTServer - INFO - 
+Getting schedules for device: 64:71:C0:7C:21:A4
+2024-12-25 12:30:51,753 - MQTTServer - INFO - Found device data for MAC: 64:71:C0:7C:21:A4
+2024-12-25 12:30:51,754 - MQTTServer - INFO - Checking download directory...
+2024-12-25 12:30:51,755 - MQTTServer - INFO - Download directory already exists
+2024-12-25 12:30:51,758 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:30:51,758 - MQTTServer - INFO - File already processed: 20241218130831_6762c94ff3224.mp4
+2024-12-25 12:30:51,759 - MQTTServer - INFO - 
+Sending response data to MQTT...
+2024-12-25 12:30:51,759 - MQTTServer - INFO - Data sent to topic: device/info/64:71:C0:7C:21:A4
+2024-12-25 12:30:51,759 - MQTTServer - INFO - Processed 1 schedules
+2024-12-25 12:30:51,763 - MQTTServer - INFO - Publishing status 'REGISTERED' to topic: device/status/64:71:C0:7C:21:A4
