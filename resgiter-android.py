@@ -12,26 +12,61 @@ import threading
 print("Starting program...")
 
 # Konfigurasi MQTT
-MQTT_HOST = "0.0.0.0"
+MQTT_HOST = "202.149.67.14"
 MQTT_PORT = 1883
-MQTT_USER = "server_mqtt"
-MQTT_PASSWORD = "mqtt.sat.212"
+MQTT_USER = "usrg"
+MQTT_PASSWORD = "M@juJ@ya2000#"
 
 # Konfigurasi MySQL
 mysql_config = {
-    'host': '192.168.100.8',
-    'user': 'root',
-    'password': 'root',
-    'database': 'dashboardadmin'
+    'host': 'localhost',
+    'user': 'pedet',
+    'password': 'Pedet@2024!',
+    'database': 'dashboardadmin',
+    'raise_on_warnings': True
 }
 
 # Konfigurasi Download dan Server
-BASE_URL = "http://192.168.100.8:8000/"
-LOCAL_SERVER_IP = "192.168.100.69"  # IP Server Python
+BASE_URL = "https://gamma.solusimedia.co.id/"
+LOCAL_SERVER_IP = "202.149.67.14"  # IP Server Python
 LOCAL_SERVER_PORT = 8000
 DOWNLOAD_DIR = "downloaded_content"
 
 print("Configuration loaded...")
+
+def cleanup_old_messages():
+    """Menghapus pesan yang lebih dari 24 jam berdasarkan created_at"""
+    try:
+        connection = mysql.connector.connect(**mysql_config)
+        cursor = connection.cursor()
+        
+        # Hapus data yang lebih dari 24 jam
+        delete_query = """
+            DELETE FROM mqtt_messages 
+            WHERE created_at < DATE_SUB(NOW(), INTERVAL 24 HOUR)
+        """
+        
+        cursor.execute(delete_query)
+        rows_deleted = cursor.rowcount
+        connection.commit()
+        
+        print(f"Cleaned up {rows_deleted} old messages from mqtt_messages table")
+        
+        cursor.close()
+        connection.close()
+        
+    except mysql.connector.Error as e:
+        print(f"Database error during cleanup: {e}")
+    except Exception as e:
+        print(f"Error during cleanup: {e}")
+
+def start_cleanup_scheduler():
+    """Memulai scheduler untuk membersihkan pesan lama setiap jam"""
+    cleanup_timer = threading.Timer(3600.0, start_cleanup_scheduler)  # Run every hour
+    cleanup_timer.daemon = True
+    cleanup_timer.start()
+    
+    cleanup_old_messages()  # Run cleanup
 
 def start_http_server():
     """Start HTTP server untuk serving file yang didownload"""
@@ -322,21 +357,83 @@ def check_and_save_mac_address(mac_address, client):
         import traceback
         print("Stack trace:", traceback.format_exc())
 
+def handle_playback_completion(client, mac_address, content_info):
+    """Handle playback completion messages from devices"""
+    try:
+        connection = mysql.connector.connect(**mysql_config)
+        cursor = connection.cursor()
+        
+        # Insert into mqtt_messages table dengan timestamp
+        insert_query = """
+            INSERT INTO mqtt_messages (
+                device_id, 
+                mac_address, 
+                message, 
+                type_message, 
+                status,
+                created_at,
+                updated_at
+            )
+            SELECT 
+                id_device, 
+                %s, 
+                %s, 
+                'In', 
+                'Done',
+                NOW(),  # Tambahkan timestamp untuk created_at
+                NOW()   # Tambahkan timestamp untuk updated_at
+            FROM devices 
+            WHERE mac_address = %s
+        """
+        
+        message_json = json.dumps(content_info)
+        cursor.execute(insert_query, (mac_address, message_json, mac_address))
+        connection.commit()
+        
+        cursor.close()
+        connection.close()
+        
+        print(f"Playback completion recorded for device {mac_address}")
+        
+    except mysql.connector.Error as e:
+        print(f"Database error: {e}")
+    except Exception as e:
+        print(f"Error handling playback completion: {e}")
+
 def on_connect(client, userdata, flags, rc):
-    print(f"MQTT Connection result: {rc}")
+    print(f"MQTT Connection result code: {rc}")
     if rc == 0:
         print("Successfully connected to MQTT broker")
-        client.subscribe("device/mac_address", qos=1)
-        print("Subscribed to topic: device/mac_address")
+        # Logging tambahan
+        print(f"Connected to host: {MQTT_HOST}, port: {MQTT_PORT}")
+        try:
+            client.subscribe("device/mac_address", qos=1)
+            client.subscribe("device/playback/complete/+", qos=1)
+        except Exception as e:
+            print(f"Error subscribing to topics: {e}")
     else:
         print(f"Failed to connect with code: {rc}")
+        # Tambahkan interpretasi kode error
+        error_messages = {
+            1: "Connection refused - incorrect protocol version",
+            2: "Connection refused - invalid client identifier",
+            3: "Connection refused - server unavailable",
+            4: "Connection refused - bad username or password",
+            5: "Connection refused - not authorized"
+        }
+        print(f"Error detail: {error_messages.get(rc, 'Unknown error')}")
 
 def on_message(client, userdata, msg):
     print(f"\nMessage received on topic: {msg.topic}")
     try:
-        mac_address = msg.payload.decode().strip()
-        print(f"MAC Address received: {mac_address}")
-        check_and_save_mac_address(mac_address, client)
+        if msg.topic == "device/mac_address":
+            mac_address = msg.payload.decode().strip()
+            print(f"MAC Address received: {mac_address}")
+            check_and_save_mac_address(mac_address, client)
+        elif msg.topic.startswith("device/playback/complete/"):
+            mac_address = msg.topic.split('/')[-1]
+            content_info = json.loads(msg.payload.decode())
+            handle_playback_completion(client, mac_address, content_info)
     except Exception as e:
         print(f"Error processing message: {e}")
         import traceback
@@ -345,6 +442,9 @@ def on_message(client, userdata, msg):
 def main():
     try:
         print("\n=== Starting MQTT Server ===")
+        
+        # Start cleanup scheduler
+        start_cleanup_scheduler()
         
         # Start HTTP server untuk serving files
         start_http_server()
